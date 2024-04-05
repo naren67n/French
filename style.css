@@ -176,7 +176,8 @@ button#modeToggle:hover {
 /* Media Query for mobile responsiveness */
 @media screen and (max-width: 768px) {
     .table-container {
-        width: 100%; /* Adjust as needed */
+        width: 90%; /* Adjust as needed */
+        overflow-x: auto; /* Add horizontal scroll if needed */
     }
 
     th, td {
