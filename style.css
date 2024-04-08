@@ -1,9 +1,7 @@
-/* style.css */
-
 /* Common styles for both light and dark mode */
 body {
     font-family: Arial, sans-serif;
-    background-color: #fafbfc;
+    background-color: #ffffff;
     margin: 0;
     padding: 0;
 }
@@ -20,6 +18,7 @@ body {
 .table-container {
     width: 80%; /* Adjust as needed */
     margin: 0 auto; /* Center the container */
+    border-top: 1px solid #d1d5da;
     border-left: 1px solid #d1d5da; /* Line on the left side */
     border-right: 1px solid #d1d5da; /* Line on the right side */
 }
@@ -35,7 +34,7 @@ table {
 th, td {
     padding: 12px 16px;
     text-align: left;
-    border-bottom: 1px solid #d1d5da;
+    /* border-bottom: 1px solid #d1d5da; */
     border-right: 1px solid #d1d5da; /* Add vertical line between columns */
     border-width: 0.5px; /* Thin border */
 }
@@ -73,6 +72,11 @@ table td:last-child {
 .dark-mode {
     background-color: #24292e;
     color: #ffffff;
+}
+
+.dark-mode .button {
+    background-color: #161b22;
+    box-shadow: 0 0 16px rgba(255, 255, 255, 0.1);
 }
 
 .dark-mode .container {
@@ -122,10 +126,6 @@ button#modeToggle:hover {
     background-color: #0366d6; /* Darker blue color on hover */
 }
 
-.dark-mode .toggle-container {
-    background-color: #555;
-}
-
 /* Add styles for the toggle container */
 .toggle-container {
     position: absolute;
@@ -161,26 +161,61 @@ button#modeToggle:hover {
     left: calc(100% - 20px); /* Move circle to the right */
 }
 
-.table-with-gap {
-    margin-top: 30%; /* Adjust as needed */
+
+/* CSS for JSON buttons */
+.json-list {
+    margin-top: 4px; /* Adjust margin as needed */
+    margin-bottom: 4px;
+    white-space: nowrap; /* Prevent line breaks */
+    overflow-x: auto; /* Enable horizontal scroll */
 }
 
-.top-space {
-    margin-top: 30%;
+.json-list::-webkit-scrollbar {
+    display: none; /* Hide the scrollbar */
 }
 
-.break-row {
-    margin-top: 30%;
+.json-list button {
+    margin-right: 10px; /* Adjust spacing between buttons */
+    padding: 8px 16px; /* Adjust padding as needed */
+    background-color: #ffffff; /* Button background color */
+    color: #464646; /* Button text color */
+    border: none;
+    border-radius: 0px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
 }
+
+.json-list button:hover {
+    background-color: #ffffff; /* Darker color on hover */
+}
+
+.json-list button:focus {
+    outline: none; /* Remove default focus outline */
+}
+
+/* Dark mode specific styles for JSON buttons */
+.dark-mode .json-list button {
+    background-color: #30363d; /* Dark background color */
+    color: #c9d1d9; /* Light text color */
+}
+
+.dark-mode .json-list button:hover {
+    background-color: #21262d; /* Darker color on hover */
+}
+
+
 
 /* Media Query for mobile responsiveness */
 @media screen and (max-width: 768px) {
     .table-container {
-        width: 90%; /* Adjust as needed */
-        overflow-x: auto; /* Add horizontal scroll if needed */
+        width: 100%; /* Adjust as needed */
     }
 
     th, td {
         padding: 8px 12px; /* Adjust as needed */
+    }
+
+    .json-list {
+        margin-bottom: 10px; /* Add margin bottom for better spacing */
     }
 }
