@@ -74,6 +74,7 @@
     {  "column1": "mauvais",   "column2": "mauvaise",   "column3": ""  },
     {  "column1": "mon",   "column2": "ma",   "column3": ""  },
     {  "column1": "un",   "column2": "une",   "column3": "an/oone"  },
+    {  "column1": "ce",   "column2": "cette",   "column3": "that"  },
     {  "column1": "",   "column2": "",   "column3": ""  },
     {  "column1": "",   "column2": "",   "column3": ""  },
     {  "column1": "terrible",   "column2": "terrible",   "column3": "terri blu"  },
