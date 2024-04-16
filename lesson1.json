@@ -86,7 +86,7 @@
     {  "column1": "l' + hôtel = l'hôtel ",   "column2": "for vouvels",   "column3": "a,e,i,o,u/h"  },
     {  "column1": "",   "column2": "",   "column3": ""  }, 
     {  "column1": "hôtel",   "column2": "hotel",   "column3": "hoo tel"  },
-    {  "column1": "forêt",   "column2": "forest",   "column3": "for ae"  },
+    {  "column1": "forêt",   "column2": "forest",   "column3": "fo ae"  },
     {  "column1": "côte",   "column2": "coast",   "column3": "coth"  },
     {  "column1": "hôpital",   "column2": "hospital",   "column3": "hopital"  },
     {  "column1": "",   "column2": "",   "column3": ""  },
