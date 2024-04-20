@@ -156,7 +156,7 @@ body.dark-mode {
     }
     
     .data-box {
-        width: calc(50% - 15px); /* Adjust width for smaller screens */
+        width: 100%; /* Take full width */
         margin-bottom: 30px; /* Add margin to create space between rows */
         height: 120px; /* Decrease height for smaller screens */
         box-sizing: border-box; /* Include padding and border in the width calculation */
@@ -170,6 +170,7 @@ body.dark-mode {
         font-size: 18px; /* Decrease font size for column2 on smaller screens */
     }
 }
+
 
 
 
