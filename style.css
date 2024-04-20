@@ -119,7 +119,7 @@ body {
         margin: 20px auto;
         background-color: #fff;
         border-radius: 6px;
-        max-width: 1000px; /* Limit maximum width */
+        max-width: 600px; /* Limit maximum width */
     }
 
     .row {
@@ -136,11 +136,11 @@ body {
         padding: 10px; /* Add padding to create space between boxes */
     }
     .box-top {
-        font-size: 28px; /* Decrease font size for column1 on smaller screens */
+        font-size: 24px; /* Decrease font size for column1 on smaller screens */
     }
 
     .box-bottom {
-        font-size: 14px; /* Decrease font size for column2 on smaller screens */
+        font-size: 18px; /* Decrease font size for column2 on smaller screens */
     }
 }
 
