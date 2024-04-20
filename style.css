@@ -14,53 +14,7 @@ body {
 }
 
 
-#modeToggle {
-    padding: 10px 20px;
-    background-color: #24292e; /* Dark background color */
-    color: #fff; /* White text color */
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-    transition: background-color 0.3s; /* Smooth transition for background color */
-}
 
-#modeToggle:hover {
-    background-color: #0366d6; /* Darker blue color on hover */
-}
-
-.toggle-container {
-    position: absolute;
-    opacity: 0;
-    width: 40px; /* Width of the toggle container */
-    height: 24px; /* Height of the toggle container */
-    position: absolute;
-    right: 10px;
-    top: 10px;
-    background-color: #ccc;
-    border-radius: 15px; /* Half of the height */
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-.circle {
-    width: 22px; /* Diameter of the circle */
-    height: 22px; /* Diameter of the circle */
-    background-color: #fff;
-    border-radius: 50%;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%) translateX(0); /* Initial position */
-    transition: transform 0.3s ease; /* Smooth transition */
-}
-
-.dark-mode .toggle-container {
-    background-color: #555; /* Dark background color in dark mode */
-}
-
-.dark-mode .circle {
-    left: calc(100% - 20px); /* Move circle to the right */
-}
 
 .json-list {
     margin-top: 4px; /* Adjust margin as needed */
@@ -118,7 +72,7 @@ body {
 .row {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 20px; /* Add margin to create space between rows */
+    margin-bottom: 0px; /* Add margin to create space between rows */
 }
 
 
@@ -161,7 +115,11 @@ body {
 /* Responsive styles */
 @media only screen and (max-width: 768px) {
     .container {
-        padding: 0 10px; /* Add space to the left and right sides */
+        width: 90%; /* Take full width */
+        margin: 20px auto;
+        background-color: #fff;
+        border-radius: 6px;
+        max-width: 1000px; /* Limit maximum width */
     }
 
     .row {
@@ -178,7 +136,7 @@ body {
         padding: 10px; /* Add padding to create space between boxes */
     }
     .box-top {
-        font-size: 16px; /* Decrease font size for column1 on smaller screens */
+        font-size: 28px; /* Decrease font size for column1 on smaller screens */
     }
 
     .box-bottom {
