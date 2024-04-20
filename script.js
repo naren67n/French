@@ -5,12 +5,6 @@ document.addEventListener('DOMContentLoaded', async () => {
     // Function to toggle dark mode
     function toggleDarkMode() {
         body.classList.toggle('dark-mode');
-        const halfMoon = document.querySelector('.half-moon');
-        if (body.classList.contains('dark-mode')) {
-            halfMoon.style.transform = 'translateY(-50%) rotate(180deg)'; // Rotate half-moon for dark mode
-        } else {
-            halfMoon.style.transform = 'translateY(-50%) rotate(0)'; // Reset rotation for light mode
-        }
     }
 
     toggleContainer.addEventListener('click', toggleDarkMode);
