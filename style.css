@@ -14,7 +14,6 @@ body {
 }
 
 
-
 .json-list {
     margin-top: 4px; /* Adjust margin as needed */
     margin-bottom: 20px;
@@ -88,6 +87,29 @@ body {
     justify-content: center; /* Center vertically */
 }
 
+body.dark-mode {
+    background-color: #303030; /* Dark background color */
+    color: #ffffff; /* Light text color */
+}
+
+.dark-mode .container {
+    background-color: #303030; /* Darker background color for container */
+}
+
+.dark-mode .json-list button {
+    background-color: #363636; /* Dark background color */
+    color: #c9d1d9; /* Light text color */
+}
+
+
+.dark-mode .box-top {
+    color: #ffffff; /* Light text color */
+}
+
+.dark-mode .box-bottom {
+    color: #ffffff; /* Light text color */
+}
+
 
 .hidden {
     display: none;
@@ -98,7 +120,8 @@ body {
 }
 
 .dark-mode .data-box {
-    border-color: #30363d;
+    border-color: #797979;
+    border-width: thin;
 }
 
 .box-top {
