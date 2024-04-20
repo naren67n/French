@@ -125,13 +125,18 @@ body.dark-mode {
 }
 
 .box-top {
-    font-size: 28px; /* Larger font size for column1 */
-    font-family: "Arial Black", sans-serif; /* Unique font family for column1 */
+font-family: "Cabin", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:"wdth" 100;
+  font-size: 34px;
 }
 
 .box-bottom {
-    font-size: 16px; /* Smaller font size for column2 */
-    font-family: "Courier New", monospace; /* Unique font family for column2 */
+  font-family: "Amatic SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
 }
 
 /* Responsive styles */
