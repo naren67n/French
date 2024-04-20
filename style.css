@@ -15,10 +15,9 @@ body {
 
 
 
-
 .json-list {
     margin-top: 4px; /* Adjust margin as needed */
-    margin-bottom: 4px;
+    margin-bottom: 20px;
     white-space: nowrap; /* Prevent line breaks */
     overflow-x: auto; /* Enable horizontal scroll */
 }
@@ -129,8 +128,8 @@ body {
     }
     
     .data-box {
-        width: calc(50% - 20px); /* Adjust width for smaller screens */
-        margin-bottom: 20px; /* Add margin to create space between rows */
+        width: calc(50% - 15px); /* Adjust width for smaller screens */
+        margin-bottom: 30px; /* Add margin to create space between rows */
         height: 120px; /* Decrease height for smaller screens */
         box-sizing: border-box; /* Include padding and border in the width calculation */
         padding: 10px; /* Add padding to create space between boxes */
