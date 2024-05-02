@@ -119,6 +119,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     // Function to speak text
     function speak(text) {
         const utterance = new SpeechSynthesisUtterance(text);
+        utterance.lang = 'fr-FR'; // Set the language to French
         speechSynthesis.speak(utterance);
     }
 });
