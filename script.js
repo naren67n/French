@@ -29,8 +29,6 @@ document.addEventListener('DOMContentLoaded', async () => {
         'lesson14.json', 'lesson15.json', 'lesson16.json'];
 
     // Function to create JSON file name buttons
-
-    // Function to create JSON file name buttons
     async function createJsonButtons() {
         for (let i = 0; i < jsonFiles.length; i++) {
             const button = document.createElement('button');
@@ -52,7 +50,6 @@ document.addEventListener('DOMContentLoaded', async () => {
             }
         }
     }
-
 
     // Function to add event listener to a button
     function addButtonEventListener(button, index) {
@@ -89,6 +86,10 @@ document.addEventListener('DOMContentLoaded', async () => {
                         <div class="box-hidden hidden">${data[j].column3}</div>
                     </div>
                 `;
+                // Add event listener to speak the text for each column1
+                box.addEventListener('click', () => {
+                    speak(data[j].column1);
+                });
                 row.appendChild(box);
             }
 
@@ -114,4 +115,10 @@ document.addEventListener('DOMContentLoaded', async () => {
             }
         }
     });
+
+    // Function to speak text
+    function speak(text) {
+        const utterance = new SpeechSynthesisUtterance(text);
+        speechSynthesis.speak(utterance);
+    }
 });
