@@ -122,4 +122,20 @@ document.addEventListener('DOMContentLoaded', async () => {
         utterance.lang = 'fr-FR'; // Set the language to French
         speechSynthesis.speak(utterance);
     }
+
+    // Function to speak text with adjustable speech rate and voice
+    function speakWithRateAndVoice(text, rate, voiceURI) {
+        const utterance = new SpeechSynthesisUtterance(text);
+        utterance.rate = rate; // Set the speech rate
+        // Check if the provided voiceURI is available
+        const voices = speechSynthesis.getVoices();
+        const voice = voices.find(v => v.voiceURI === voiceURI);
+        if (voice) {
+            utterance.voice = voice; // Set the voice
+        } else {
+            console.error('Voice not found:', voiceURI);
+        }
+        speechSynthesis.speak(utterance);
+    }
+
 });
