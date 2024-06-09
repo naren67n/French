@@ -76,7 +76,7 @@ body {
 
 
 .box-hidden {
-    display: none;
+    display:block;
 }
 
 
@@ -112,11 +112,11 @@ body.dark-mode {
 
 
 .hidden {
-    display: none;
+    display: block;
 }
 
 .data-box .box-hidden {
-    display: none;
+    display: block;
 }
 
 .dark-mode .data-box {
