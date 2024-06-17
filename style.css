@@ -11,8 +11,20 @@ body {
     background-color: #fff;
     border-radius: 6px;
     max-width: 1000px; /* Limit maximum width */
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-auto-rows: 150px;
+    grid-gap: 20px;
 }
 
+<<<<<<< Updated upstream
+=======
+@media only screen and (max-width: 768px) {
+    .container {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    }
+}
+>>>>>>> Stashed changes
 
 .json-list {
     margin-top: 4px; /* Adjust margin as needed */
@@ -54,17 +66,19 @@ body {
 }
 
 .data-box {
-    width: calc(33.33% - 20px); /* Adjust width based on number of boxes per row */
-    height: 150px; /* Set a fixed height for all boxes */
     border: 1px solid #d1d5da;
     border-radius: 5px;
     padding: 10px;
+<<<<<<< Updated upstream
     margin-bottom: 25px; /* Add margin to create space between rows */
     cursor: pointer;
     box-sizing: border-box; /* Include padding and border in the width calculation */
+=======
+    box-sizing: border-box;
+>>>>>>> Stashed changes
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end; /* Align box content to the bottom */
 }
 
 .row {
@@ -73,20 +87,19 @@ body {
     margin-bottom: 0px; /* Add margin to create space between rows */
 }
 
-
-
 .box-hidden {
     display:block;
 }
-
 
 .data-box .box-content {
     display: flex;
     flex-direction: column;
     align-items: center; /* Center horizontally */
-    justify-content: center; /* Center vertically */
+    justify-content: space-between; /* Align number and box content */
+    height: 100%; /* Ensure the height takes up the full space */
 }
 
+<<<<<<< Updated upstream
 body.dark-mode {
     background-color: #303030; /* Dark background color */
     color: #ffffff; /* Light text color */
@@ -111,6 +124,8 @@ body.dark-mode {
 }
 
 
+=======
+>>>>>>> Stashed changes
 .hidden {
     display: block;
 }
@@ -138,6 +153,7 @@ body.dark-mode {
   font-size: 18px;
   opacity: 40%;
 }
+<<<<<<< Updated upstream
 
 /* Responsive styles */
 @media only screen and (max-width: 768px) {
@@ -176,3 +192,5 @@ body.dark-mode {
 
 
 
+=======
+>>>>>>> Stashed changes
