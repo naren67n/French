@@ -61,7 +61,7 @@ body {
     border: 1px solid #d1d5da;
     border-radius: 5px;
     padding: 10px;
-    margin-bottom: 25px; / Add margin to create space between rows /
+    margin-bottom: 20px; / Add margin to create space between rows /
     cursor: pointer;
     box-sizing: border-box; / Include padding and border in the width calculation */
     display: flex;
@@ -133,38 +133,37 @@ body {
     font-weight: 100;
     font-style: normal;
     font-size: 18px;
-    opacity: 40%;
+    opacity: 20%;
     }
-    
-    
+
     @media only screen and (max-width: 768px) {
-    .container {
-    width: 90%;
-    margin: 20px auto;
-    background-color: #fff;
-    border-radius: 6px;
-    max-width: 600px; 
+        .container {
+            width: 90%; /* Take full width */
+            margin: 20px auto;
+            background-color: #fff;
+            border-radius: 6px;
+            max-width: 600px; /* Limit maximum width */
+        }
+    
+        .row {
+            flex-wrap: wrap; /* Allow flex items to wrap onto new lines */
+            justify-content: space-between; /* Add space between boxes */
+            margin-bottom: 0; /* Remove margin between rows on mobile */
+        }
+        
+        .data-box {
+            width: 100%; /* Take full width */
+            margin-bottom: 30px; /* Add margin to create space between rows */
+            height: 120px; /* Decrease height for smaller screens */
+            box-sizing: border-box; /* Include padding and border in the width calculation */
+            padding: 10px; /* Add padding to create space between boxes */
+        }
+        .box-top {
+            font-size: 24px; /* Decrease font size for column1 on smaller screens */
+        }
+    
+        .box-bottom {
+            font-size: 18px; /* Decrease font size for column2 on smaller screens */
+        }
     }
     
-    .row {
-        flex-wrap: wrap; /* Allow flex items to wrap onto new lines */
-        justify-content: space-between; /* Add space between boxes */
-        margin-bottom: 0; /* Remove margin between rows on mobile */
-    }
-    
-    .data-box {
-        width: 100%; /* Take full width */
-        margin-bottom: 30px; /* Add margin to create space between rows */
-        height: 120px; /* Decrease height for smaller screens */
-        box-sizing: border-box; /* Include padding and border in the width calculation */
-        padding: 10px; /* Add padding to create space between boxes */
-    }
-    .box-top {
-        font-size: 24px; /* Decrease font size for column1 on smaller screens */
-    }
-    
-    .box-bottom {
-        font-size: 18px; /* Decrease font size for column2 on smaller screens */
-    }
-    
-}
