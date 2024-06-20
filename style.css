@@ -17,14 +17,11 @@ body {
     grid-gap: 20px;
 }
 
-<<<<<<< Updated upstream
-=======
 @media only screen and (max-width: 768px) {
     .container {
         grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
     }
 }
->>>>>>> Stashed changes
 
 .json-list {
     margin-top: 4px; /* Adjust margin as needed */
@@ -69,13 +66,10 @@ body {
     border: 1px solid #d1d5da;
     border-radius: 5px;
     padding: 10px;
-<<<<<<< Updated upstream
     margin-bottom: 25px; /* Add margin to create space between rows */
     cursor: pointer;
     box-sizing: border-box; /* Include padding and border in the width calculation */
-=======
     box-sizing: border-box;
->>>>>>> Stashed changes
     display: flex;
     flex-direction: column;
     justify-content: flex-end; /* Align box content to the bottom */
@@ -99,7 +93,7 @@ body {
     height: 100%; /* Ensure the height takes up the full space */
 }
 
-<<<<<<< Updated upstream
+
 body.dark-mode {
     background-color: #303030; /* Dark background color */
     color: #ffffff; /* Light text color */
@@ -123,9 +117,6 @@ body.dark-mode {
     color: #ffffff; /* Light text color */
 }
 
-
-=======
->>>>>>> Stashed changes
 .hidden {
     display: block;
 }
@@ -153,7 +144,7 @@ body.dark-mode {
   font-size: 18px;
   opacity: 40%;
 }
-<<<<<<< Updated upstream
+
 
 /* Responsive styles */
 @media only screen and (max-width: 768px) {
@@ -187,10 +178,3 @@ body.dark-mode {
     }
 }
 
-
-
-
-
-
-=======
->>>>>>> Stashed changes
