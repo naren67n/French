@@ -1,5 +1,8 @@
 [
     {  "column1": "un plan",   "column2": "a map",   "column3": ""  },
+    {  "column1": "peut",   "column2": "can",   "column3": ""  },
+    {  "column1": "ne peux pas",   "column2": "can't",   "column3": ""  },
+    {  "column1": "",   "column2": "",   "column3": ""  },
     {  "column1": "prendre",   "column2": "(t0) take / sometimes (to) have - for edible sentences",   "column3": ""  },
     {  "column1": "prenez",   "column2": "take - direction / command",   "column3": ""  },
     {  "column1": "avoir",   "column2": "(to) have",   "column3": ""  },
