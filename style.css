@@ -76,7 +76,6 @@ body {
     display: flex; /* Ensure flex container for row */
     flex-wrap: wrap; /* Allow flex items to wrap onto new lines */
     justify-content: space-between; /* Distribute space between items */
-    gap: 20px; /* Add gap between items for spacing */
     margin-bottom: -20px; /* Negative margin to counteract margin added to individual boxes */
 }
 
