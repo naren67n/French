@@ -1,9 +1,9 @@
 [
+    {  "column1": "avez-vous...?",   "column2": "have you - have you eaten?",   "column3": ""  },
+    {  "column1": "vous-avez",   "column2": "you have",   "column3": ""  },
     {  "column1": "",   "column2": "",   "column3": ""  },
-    {  "column1": "",   "column2": "",   "column3": ""  },
-    {  "column1": "",   "column2": "",   "column3": ""  },
-    {  "column1": "",   "column2": "",   "column3": ""  },
-    {  "column1": "",   "column2": "",   "column3": ""  },
+    {  "column1": "ont-ils...?",   "column2": "have they",   "column3": ""  },
+    {  "column1": "ils-ont",   "column2": "they have",   "column3": ""  },
     {  "column1": "",   "column2": "",   "column3": ""  },
     {  "column1": "",   "column2": "",   "column3": ""  },
     {  "column1": "",   "column2": "",   "column3": ""  },
