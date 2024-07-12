@@ -225,6 +225,7 @@
     {  "column1": "allez-vous",   "column2": "are you going",   "column3": ""  },
     {  "column1": "dois-je",   "column2": "do I have to / must I",   "column3": ""  },
     {  "column1": "devez-vous",   "column2": "do you have to / must you",   "column3": ""  },
+    {  "column1": "savez-vous",   "column2": "do you know",   "column3": ""  },
     {  "column1": "",   "column2": "",   "column3": ""  },
     {  "column1": "",   "column2": "",   "column3": ""  },
     {  "column1": "acheter",   "column2": "(to) buy",   "column3": "acsh they"  },
