@@ -1,6 +1,8 @@
 [
     {  "column1": "avez-vous...?",   "column2": "have you - have you eaten?",   "column3": ""  },
     {  "column1": "vous devez",   "column2": "you have",   "column3": ""  },
+    {  "column1": "Quelle est",   "column2": "what is",   "column3": "at what time - is different"  },
+    {  "column1": "",   "column2": "",   "column3": ""  },
     {  "column1": "pour",   "column2": "for",   "column3": ""  },
     {  "column1": "que",   "column2": "as - do you want to order the same thing as me",   "column3": ""  },
     {  "column1": "ont-ils...?",   "column2": "have they",   "column3": ""  },
@@ -170,7 +172,7 @@
     {  "column1": "",   "column2": "",   "column3": ""  },
     {  "column1": "I'avez-vous trouvé",   "column2": "have you found him",   "column3": "end e - all applicable for past participle not for the present tense"  },
     {  "column1": "I'avez-vous trouvée",   "column2": "have you found her",   "column3": ""  },
-    {  "column1": "",   "column2": "",   "column3": ""  },
+    {  "column1": "Avez-vous",   "column2": "did you",   "column3": "for past and present tenses - did you try to find Pierre/ have you tried to find Pierre"  },
     {  "column1": "je le comprends",   "column2": "I understand him",   "column3": ""  },
     {  "column1": "je la comprends",   "column2": "",   "column3": "I understand her"  },
     {  "column1": "",   "column2": "",   "column3": ""  },
