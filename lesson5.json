@@ -69,6 +69,7 @@
     {  "column1": "",   "column2": "",   "column3": ""  },
     {  "column1": "il n'y a pas de",   "column2": "there isn't any/ there aren't any",   "column3": ""  },
     {  "column1": "ill y a",   "column2": "there is / there are",   "column3": ""  },
+    {  "column1": "il y a",   "column2": "ago",   "column3": ""  },
     {  "column1": "y a-t-il",   "column2": "is there / are there",   "column3": "question - eya t il"  },
     {  "column1": "",   "column2": "",   "column3": ""  },
     {  "column1": "Qu'y a-t-il?",   "column2": "what is there",   "column3": "ke ya til"  },
