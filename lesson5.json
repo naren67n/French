@@ -111,6 +111,7 @@
     {  "column1": "que",   "column2": "as",   "column3": ""  },
     {  "column1": "",   "column2": "",   "column3": ""  },
     {  "column1": "est-ce que c'est...?",   "column2": "is it...?",   "column3": "es que sey"  },
+    {  "column1": "est-ce que c'était...?",   "column2": "was it...?",   "column3": "es que sey"  },
     {  "column1": "est-ce",   "column2": "is it",   "column3": ""  },
     {  "column1": "est-ce que c'est bon",   "column2": "is it good",   "column3": ""  },
     {  "column1": "est-ce que c'est ici",   "column2": "is it here",   "column3": ""  },
